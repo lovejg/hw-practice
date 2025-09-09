@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+}
+
+#txt_welcome {
+  /* 말 그대로 웰컴 텍스트에 id 추가한것*/
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.card-list {
+  /* card div 부모로 만든 div */
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card_title {
+  font-size: 20px;
+}
+
+.card_button {
+  font-size: 25px;
+  width: 150px;
+  height: 30px;
+}
+
+.card_img {
+  width: 300px;
+  height: 300px;
+}
